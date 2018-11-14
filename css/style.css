@@ -36,7 +36,7 @@ header nav a.active{
 }
 #home{
 	text-align: center;
-	padding: 200px 0 150px;
+	padding: 200px 0 150px; /*permite ampliar la sección*/
 }
 #home h1{
 	color: green;
@@ -124,7 +124,7 @@ header nav a.active{
 	margin: 20px 0;
 	padding: 20px;
 	width: 400px;
- 
+
 }
 #contacto button{
 	background-color: #fed136;
@@ -151,6 +151,6 @@ section h2{
 }
 .container{
 	width: 992px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: auto; /*sirve para centrar DIVs*/
+	margin-right: auto;/*sirve para centrar DIVs*/
 }
