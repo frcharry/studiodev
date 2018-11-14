@@ -105,10 +105,11 @@ header nav a.active{
 }
 #contacto{
 	background-color: #303030;
-	background-image: url('../images/mapimage.png');
+	background-image: url('../images/map-image.png');
 	background-position: center;
 	background-repeat:no-repeat;
 	text-align: center;
+	float: none;
 }
 #contacto h2{
 	color: white;
@@ -123,6 +124,7 @@ header nav a.active{
 	margin: 20px 0;
 	padding: 20px;
 	width: 400px;
+ 
 }
 #contacto button{
 	background-color: #fed136;
