@@ -1,16 +1,16 @@
-*{box-sizing:border-box;}
+*{box-sizing:border-box;}/*selecciona todas las etiquetas, mantiene el ancho en lo que uno especifique independiente del padding*/
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
 }
 .home-wrapper{
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/background.jpg')no-repeat center top;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/background.jpg')no-repeat center top;/*oscurece la imàgen del home-wrapper*/
 	background-size: cover;
 	color: white;
 }
 header{
-	position: fixed;
+	position: fixed; /*mantiene fijo el encabezado*/
 	padding: 10px 0;
 	width: 100%;
 	background-color: rgba(48, 48, 48, 0.5);
@@ -39,20 +39,20 @@ header nav a.active{
 	padding: 200px 0 150px; /*permite ampliar la sección*/
 }
 #home h1{
-	color: green;
+	color: whitesmoke;
 	font-size: 68px;
 	font-weight: normal;
-	line-height: 1.2;
+	line-height: 1.2; /*reescribe el linehight del body*/
 	margin-bottom: 40px;
 }
-#home .divider{
+#home .divider{ /*línea amarilla*/
 	width: 80px;
 	border-top: 5px solid #fed136;
-	margin: 0 auto;
+	margin: 0 auto; /*ayuda a centralo con el auto*/
 }
 #home p{
 	font-size: 24px;
-	margin-top: px;
+	margin-top: 40px;
 }
 #home .social{
 	margin-top: 80px;
@@ -68,6 +68,7 @@ header nav a.active{
 	width: 50px;
 	line-height: 50px;
 	margin-right: 10px;
+	/*Generar la lentitid en la transición cuando hoover*/
 	-webkit-transition:all .3s;
 	-moz-transition:all .3s;
 	transition:all .3s;
@@ -76,17 +77,17 @@ header nav a.active{
 	background-color: #fed136;
 }
 #servicios .box{
-	display: inline-block;
+	display: inline-block;/*permite ver en columnas*/
 	text-align: center;
 	width: 33%;
-	padding: 10px;
+	padding: 10px;/*separa las columnas*/
 }
 #video{
 	background-color: black;
 	text-align: center;
-	padding: 30px 0;
+	padding: 30px 0;/*sobreescribe la regla del section para los 80px arriba y abajo*/
 }
-#portafolio{
+#portafolio{/*da color al fondo de la sección*/
 	background-color: whitesmoke;
 }
 #portafolio .box{
@@ -97,7 +98,7 @@ header nav a.active{
 	background-color: white;
 }
 #portafolio .box img{
-	width: 100%;
+	width: 100%;/*ancho predeterminado del 100% del container para que no se desborde*/
 }
 #portafolio .box p{
 	color: #666;
@@ -112,16 +113,16 @@ header nav a.active{
 	float: none;
 }
 #contacto h2{
-	color: white;
+	color: white; /*título del formulario en blanco*/
 }
-#contacto input{
+#contacto input{/*regla para el campos de texto.*/
 	padding: 20px;
 	width: 400px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 }
 #contacto textarea{
-	margin: 20px 0;
+	margin: 20px 0;/*espacio para campo de texto y botón*/
 	padding: 20px;
 	width: 400px;
 
@@ -142,12 +143,12 @@ footer {
 	font-size: 18px;
 }
 section{
-	padding: 80px 0;
+	padding: 80px 0; /*da espacio 80px arriba y abajo*/
 }
 section h2{
 	font-size: 32px;
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 80px;/*espeacio entre el título y columnas subsiguientes*/
 }
 .container{
 	width: 992px;

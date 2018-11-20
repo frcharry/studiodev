@@ -4,7 +4,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Studio DEV</title>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+		<!--link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<script src="https://use.fontawesome.com/2dbac93b7e.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -15,7 +16,7 @@
 	<!--Body-->
 	<body>
 		<div class="home-wrapper">
-			<!--Header-->
+			<!--Header se debe crear el div interno para poder que quede widh 100%-->
 			<header>
 				<div class="container">
 					<img src="images/logo.png" alt="Logo Studio Dev">
@@ -65,6 +66,7 @@
 		</section>
 		<!--Portafolio-->
 		<section id="portafolio">
+			<!-- Div interno para darle forma -->
 			<div class="container">
 				<h2>Portafolio</h2>
 				<div class="box">
@@ -103,7 +105,7 @@
 		<section id="contacto">
 			<h2>Contácto</h2>
 			<form>
-				<div><input type="text" placeholder="Tu e-mail"></div>
+				<div><input type="text" placeholder="Tu e-mail"></div> <!-- los envuelve en un elemento bloque como el div-->
 				<div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
 				<button>Enviar</button>
 			</form>
